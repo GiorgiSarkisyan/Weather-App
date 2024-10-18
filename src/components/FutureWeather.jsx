@@ -1,9 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useContext } from "react";
-import { useFetchFutWeather } from "../hooks/useFetchWeather";
 import Box from "./atoms/Box";
-import { CityContext } from "../context/CityContext";
-import { LoaderContext } from "../context/LoaderContext";
 
 const formatDate = (date) => {
   const options = {
